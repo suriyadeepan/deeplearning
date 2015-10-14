@@ -7,8 +7,8 @@ Ordered collection of my Deep Learning reading material
 
 based on [LISA Lab Reading List](http://www.iro.umontreal.ca/~lisa/twiki/bin/view.cgi/Public/NeuralNetsIntroductoryMaterial)
 
-- [ ] Siganos And Stergiou : [*Neural Networks*](https://raw.githubusercontent.com/suriyadeepan/deeplearning/master/doc/01_ConceptsInNN/01_SiganosAndStergious_NN.pdf)
-- [ ] *Backpropagation* : The Original Article
+- [x] Siganos And Stergiou : [*Neural Networks*](https://raw.githubusercontent.com/suriyadeepan/deeplearning/master/doc/01_ConceptsInNN/01_SiganosAndStergious_NN.pdf)
+- [ ] *[Backpropagation](https://raw.githubusercontent.com/suriyadeepan/deeplearning/master/doc/01_ConceptsInNN/02_BP-original.pdf)* : The Original Article
 - [ ] Hinton's *Connectionist Symbol Processing*
 - [ ] LeCun's *Theoretical Framework for Backpropagation*
 - [ ] Geman's *Neural Network and the Bias/Variance Dilemma*
