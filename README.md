@@ -2,6 +2,11 @@
 --
 Ordered collection of my Deep Learning reading material
 
+## Articles
+
+- [ ] [A Deep Dive into Recurrent Neural Networks](http://nikhilbuduma.com/2015/01/11/a-deep-dive-into-recurrent-neural-networks/)
+- [ ] [On Bayesian Classifier](http://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions/58792#58792)
+- [ ] [Deep Learning Summit](https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c)
 
 ## Neural Network : Introductory Concepts
 
@@ -29,3 +34,22 @@ based on [LISA Lab Reading List](http://www.iro.umontreal.ca/~lisa/twiki/bin/vie
 - [ ] Neal's *Learning Stochastic Feed Forward Networks*
 - [ ] Hinton's *Wake-Sleep Algorithm for Unsupervised Neural Network*
 - [ ] LeCun and Bengio : *Gradient-Based Learning Applied to Document Recognition*
+
+## Research Papers
+
+- [ ] A few useful things to know about in Machine Learning
+
+## Full-on tutorials
+
+- [ ] [deeplearning.net : Tutorial](http://deeplearning.net/tutorial/deeplearning.pdf)
+- [ ] [Tel Aviv University : DL Master Class](http://www.cs.tau.ac.il/~wolf/deeplearningmeeting/Day1.html)
+
+## More Lists
+
+- [ ] [Deep Learning : Colossal Reading List](https://github.com/ChristosChristofidis/awesome-deep-learning)
+- [ ] [deeplearning.net Reading List](http://deeplearning.net/reading-list/)
+
+## Videos
+
+- [ ] [Neural Networks Demystified](https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU)
+- [ ] [Demis Hassabis from Google's DeepMind](https://clip.mn/video/yt-08Cl7ii6viY)
