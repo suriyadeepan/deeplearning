@@ -7,6 +7,7 @@ Ordered collection of my Deep Learning reading material
 - [ ] [A Deep Dive into Recurrent Neural Networks](http://nikhilbuduma.com/2015/01/11/a-deep-dive-into-recurrent-neural-networks/)
 - [ ] [On Bayesian Classifier](http://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions/58792#58792)
 - [ ] [Deep Learning Summit](https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c)
+- [ ] [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/)
 
 ## Neural Network : Introductory Concepts
 
