@@ -39,6 +39,7 @@ based on [LISA Lab Reading List](http://www.iro.umontreal.ca/~lisa/twiki/bin/vie
 ## Research Papers
 
 - [ ] A few useful things to know about in Machine Learning
+- [ ] A Unifying Review of Linear Gaussian Models
 
 ## Full-on tutorials
 
