@@ -36,6 +36,21 @@ based on [LISA Lab Reading List](http://www.iro.umontreal.ca/~lisa/twiki/bin/vie
 - [ ] Hinton's *Wake-Sleep Algorithm for Unsupervised Neural Network*
 - [ ] LeCun and Bengio : *Gradient-Based Learning Applied to Document Recognition*
 
+## CS224d: Deep Learning for NLP
+
+- [ ] Introduction
+	- [x] Linear Algebra 
+	- [ ] Probability
+	- [x] Convex Optimization
+	- [x] SGD
+	- [ ] From Frequency to Meaning : VSM
+- [ ] Simple Word Vector representations
+	- [ ] [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
+	- [ ] [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
+- [ ] Advanced word vector representations
+- [x] Neural Networks and backpropagation
+
+
 ## Research Papers
 
 - [ ] A few useful things to know about in Machine Learning
