@@ -38,15 +38,16 @@ based on [LISA Lab Reading List](http://www.iro.umontreal.ca/~lisa/twiki/bin/vie
 
 ## CS224d: Deep Learning for NLP
 
-- [ ] Introduction
+- [x] Introduction
 	- [x] Linear Algebra 
-	- [ ] Probability
+	- [x] Probability
 	- [x] Convex Optimization
 	- [x] SGD
-	- [ ] From Frequency to Meaning : VSM
+	- [x] From Frequency to Meaning : VSM
 - [ ] Simple Word Vector representations
 	- [ ] [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 	- [ ] [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
+	- [ ] [A Neural Probabilistic Language Model](http://machinelearning.wustl.edu/mlpapers/paper_files/BengioDVJ03.pdf)
 - [ ] Advanced word vector representations
 - [x] Neural Networks and backpropagation
 
