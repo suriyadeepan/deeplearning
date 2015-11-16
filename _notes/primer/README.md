@@ -14,14 +14,22 @@ Let me list out what I actually know.
 
 Now, what I don't know.
 
+**Models**
 * Recurrent Neural Network
 * LSTM : Long Short Term Memory
-* Theano architecture, usage
-* Torch architecture, usage
-* TensorFlow architecture, usage
 * Autoencoders
 * Deep Restricted Boltzmann machines
+* Deep Belief Network
+* Bi-directional RNN
 
+**Frameworks**
+* Theano 
+* Torch 
+* TensorFlow
 
-
-
+**Concepts**
+* Vanishing Gradient Problem
+* RProp : Resilient Backpropagation 
+* Neural Abstraction Pyramid
+* [Ancestral Pass of DBN](http://www.cs.toronto.edu/~hinton/absps/ncfast.pdf)
+* [Liquid State Machines](https://en.wikipedia.org/wiki/Liquid_state_machines)
