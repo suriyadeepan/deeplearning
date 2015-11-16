@@ -15,6 +15,7 @@ Let me list out what I actually know.
 Now, what I don't know.
 
 **Models**
+
 * Recurrent Neural Network
 * LSTM : Long Short Term Memory
 * Autoencoders
@@ -23,13 +24,31 @@ Now, what I don't know.
 * Bi-directional RNN
 
 **Frameworks**
+
 * Theano 
 * Torch 
 * TensorFlow
 
 **Concepts**
+
 * Vanishing Gradient Problem
 * RProp : Resilient Backpropagation 
 * Neural Abstraction Pyramid
 * [Ancestral Pass of DBN](http://www.cs.toronto.edu/~hinton/absps/ncfast.pdf)
 * [Liquid State Machines](https://en.wikipedia.org/wiki/Liquid_state_machines)
+
+*Nov 16 2015 : Continuing RNN*
+
+* Backpropagation Through Time (BPTT)
+* Recursive Neural Network (Generalization of RNN)
+* [Turing-complete](http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf)
+
+* Softmax classifier
+* Cross Entropy error
+* [RMSProp](http://arxiv.org/abs/1502.04390)
+* [Gradient Checking](http://deeplearning.stanford.edu/wiki/index.php/Gradient_checking_and_advanced_optimization)
+
+## Reading List
+
+1. [http://ufldl.stanford.edu/tutorial/](http://ufldl.stanford.edu/tutorial/)
+2. [Learning From Data](http://work.caltech.edu/previous.html)
