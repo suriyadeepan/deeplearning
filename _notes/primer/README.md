@@ -48,6 +48,11 @@ Now, what I don't know.
 * [RMSProp](http://arxiv.org/abs/1502.04390)
 * [Gradient Checking](http://deeplearning.stanford.edu/wiki/index.php/Gradient_checking_and_advanced_optimization)
 
+*Nov 17 2015 : Still Continuing RNN*
+
+* [Soft and fully differentiable Attention Model](http://arxiv.org/abs/1410.5401)
+* 
+
 ## Reading List
 
 1. [http://ufldl.stanford.edu/tutorial/](http://ufldl.stanford.edu/tutorial/)

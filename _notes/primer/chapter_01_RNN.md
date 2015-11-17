@@ -29,6 +29,8 @@ $h = h_{t-1}W_{hh} + W_{xh}x_t$
 
 During each step, RNN combines the current hidden state with previous hidden state, by matrix addition. The current hidden state is the product of input x and weight matrix $W_{xh}$ and the previous hidden state term is the product of $h_{t-1}$ and $W_{hh}$, where $h_{t-1} = h_{t-2}W_{hh} + W_{xh}x_t$
 
+> The concept of attention is the most interesting recent architectural innovation in neural networks.
+
 
 ## Models
 
