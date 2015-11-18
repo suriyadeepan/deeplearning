@@ -57,3 +57,4 @@ Now, what I don't know.
 
 1. [http://ufldl.stanford.edu/tutorial/](http://ufldl.stanford.edu/tutorial/)
 2. [Learning From Data](http://work.caltech.edu/previous.html)
+3. [The Neural](https://theneural.wordpress.com/)
