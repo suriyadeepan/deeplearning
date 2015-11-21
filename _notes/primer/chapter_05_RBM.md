@@ -54,6 +54,12 @@ To estimate the difference between the original distribution and the reconstruct
 
 ![Optimization (*from deeplearning4j.org*)](svg/optim.png)
 
+## RBM Stacking
+
+When activations of hidden layer approximately resembles the original data distribution, the activations can be used as inputs to another layer of hidden units. The first hidden layer takes the role of the visible layer now and they produce another set of activations. This sequential sets of activations are capable of representing the original data in the form of a complex hierarchy of features. This acts as the basis of rich, complex representation of data.
+
+In each hidden layer, the weights are adjusted until the layer is able to approximately represent the input from the previous layer. This is greedy, layer-wise, unsupervised pre-training improves the weights of the whole networks without any labels. The deep belief networks which are pre-trained are in a better position to train and classify images, compared to randomly initialized weights. 
+
 
 ## Probabilistic View
 
@@ -105,6 +111,7 @@ Now $P(x) = \frac{e^{-F(x)}}{Z}$
 1. **Symmetric** : Because inputs from all visible nodes are being passed to all hidden nodes, an RBM can be defined as a symmetrical bipartite graph.
 2. **Generative Learning** : Reconstruction is making guesses about the probability distribution of the original input; i.e. the values of many varied points at once. This is known as generative learning, which must be distinguished from the so-called discriminative learning performed by classification, which maps inputs to labels, effectively drawing lines between groups of data points.
 3. **Joint Probability** : the simultaneous probability of x given a and of a given x, expressed as the shared weights between the two layers of the RBM. 
+4. **Pre-training** : While RBMs have many uses, proper initialization of weights to facilitate later learning and classification is one of their chief advantages.
 
 
 
