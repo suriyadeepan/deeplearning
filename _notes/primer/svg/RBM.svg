@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="RBM.svg"
+   inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+   inkscape:export-xdpi="12.138436"
+   inkscape:export-ydpi="12.138436">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4376"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient3863">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3865" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3867" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="365.12625"
+     inkscape:cy="661.81002"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3836"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"
+       transform="translate(-1063.4886,-814.58701)">
+      <g
+         transform="translate(44.696694,0)"
+         id="g3790">
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3006"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,-54.548237)" />
+        <path
+           transform="translate(24.243661,60.609153)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3008"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           transform="translate(24.243661,165.66502)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3012"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3014"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,280.82241)" />
+        <path
+           transform="translate(24.243661,391.93919)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3016"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+      </g>
+      <rect
+         y="132.88757"
+         x="91.938095"
+         height="586.36005"
+         width="123.71017"
+         id="rect3788"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3845"
+       transform="translate(-1063.4886,-818.62761)"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195">
+      <g
+         transform="translate(187.88839,0)"
+         id="g3830">
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3801"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,12.12183)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3803"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,117.17769)" />
+        <path
+           transform="translate(198.23987,232.33508)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3805"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3807"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,343.45186)" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.86772895;stroke-opacity:1"
+         id="rect3828"
+         width="123.84244"
+         height="441.03033"
+         x="409.05984"
+         y="209.59303" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-1012.981"
+       y="-723.89008"
+       id="text3853"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan3855"
+         x="-1012.981"
+         y="-723.89008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">Visible Layer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-637.0022"
+       y="-638.0271"
+       id="text3857"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan3859"
+         x="-637.0022"
+         y="-638.0271"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">Hidden Layer</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect3861"
+       width="697.00525"
+       height="737.41138"
+       x="-1035.2043"
+       y="-774.39771"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <g
+       inkscape:export-ydpi="12.893983"
+       inkscape:export-xdpi="12.893983"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig001.png"
+       id="g3907"
+       transform="translate(-1871.6106,-808.93016)">
+      <g
+         id="g3909"
+         transform="translate(44.696694,0)">
+        <path
+           transform="translate(24.243661,-54.548237)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3911"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3913"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,60.609153)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3915"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,165.66502)" />
+        <path
+           transform="translate(24.243661,280.82241)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3917"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3919"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,391.93919)" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         id="rect3921"
+         width="123.71017"
+         height="586.36005"
+         x="91.938095"
+         y="132.88757" />
+    </g>
+    <g
+       inkscape:export-ydpi="12.893983"
+       inkscape:export-xdpi="12.893983"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig001.png"
+       transform="translate(-1871.6106,-812.97076)"
+       id="g3923">
+      <g
+         id="g3925"
+         transform="translate(187.88839,0)">
+        <path
+           transform="translate(198.23987,12.12183)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3927"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           transform="translate(198.23987,117.17769)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3929"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3931"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,232.33508)" />
+        <path
+           transform="translate(198.23987,343.45186)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3933"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+      </g>
+      <rect
+         y="209.59303"
+         x="409.05984"
+         height="441.03033"
+         width="123.84244"
+         id="rect3935"
+         style="fill:none;stroke:#000000;stroke-width:0.86772895;stroke-opacity:1" />
+    </g>
+    <text
+       inkscape:export-ydpi="12.893983"
+       inkscape:export-xdpi="12.893983"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig001.png"
+       sodipodi:linespacing="125%"
+       id="text3937"
+       y="-718.23322"
+       x="-1821.103"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco"
+         y="-718.23322"
+         x="-1821.103"
+         id="tspan3939"
+         sodipodi:role="line">Visible Layer</tspan></text>
+    <text
+       inkscape:export-ydpi="12.893983"
+       inkscape:export-xdpi="12.893983"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig001.png"
+       sodipodi:linespacing="125%"
+       id="text3941"
+       y="-639.44128"
+       x="-1491.7933"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco"
+         y="-639.44128"
+         x="-1491.7933"
+         id="tspan3943"
+         sodipodi:role="line">Hidden Layer</tspan></text>
+    <rect
+       inkscape:export-ydpi="12.893983"
+       inkscape:export-xdpi="12.893983"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig001.png"
+       y="-768.74084"
+       x="-1843.3263"
+       height="737.41138"
+       width="697.00525"
+       id="rect3945"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.95337903;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -872.08335,-620.81958 240.33236,62.33236"
+       id="path3947"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3949"
+       d="m -871.76203,-620.49826 242.26115,165.11829"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.07669592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -871.52168,-620.25791 240.35188,281.78045"
+       id="path3951"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3953"
+       d="m -871.32398,-620.06021 239.95648,399.95648"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3955"
+       d="m -870.1617,-504.69459 239.48906,-52.91762"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -872.56876,-412.28753 241.30318,-144.73174"
+       id="path3957"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3959"
+       d="m -872.04394,-290.81235 240.25354,-265.6821"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -875.67466,-189.18163 243.51498,-366.94354"
+       id="path3961"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -869.21401,-504.95024 240.16511,50.02225"
+       id="path3963"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3965"
+       d="m -874.24945,-411.01084 245.23599,-42.85655"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -871.76876,-290.49153 -629.49415,-453.3867"
+       id="path3967"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3969"
+       d="m -873.50248,-192.75781 243.74205,-260.36261"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3971"
+       d="m -872.75761,-505.49384 241.82374,167.25231"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -873.03005,-410.76628 242.36862,72.79719"
+       id="path3973"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3975"
+       d="m -873.1372,-290.71909 242.58292,-46.29719"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -874.80801,-191.04828 243.92454,-145.63881"
+       id="path3977"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -870.48359,-503.21982 239.2757,283.2757"
+       id="path3979"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3981"
+       d="m -872.62958,-411.36581 241.56768,191.56768"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -872.89456,-292.63079 242.09764,73.09764"
+       id="path3983"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3985"
+       d="m -874.05979,-191.32438 243.4281,-27.51518"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-796.20221"
+       y="-609.33875"
+       id="text3987"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fig01.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan3989"
+         x="-796.20221"
+         y="-609.33875">W<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3991">ij</tspan></tspan></text>
+    <g
+       transform="translate(1064.502,118.79394)"
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       id="g3993">
+      <g
+         id="g3995"
+         transform="translate(44.696694,0)">
+        <path
+           transform="translate(24.243661,-54.548237)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path3997"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path3999"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,60.609153)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4001"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,165.66502)" />
+        <path
+           transform="translate(24.243661,280.82241)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4003"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4005"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,391.93919)" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         id="rect4007"
+         width="123.71017"
+         height="586.36005"
+         x="91.938095"
+         y="132.88757" />
+    </g>
+    <g
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       transform="translate(1064.502,114.75334)"
+       id="g4009">
+      <g
+         id="g4011"
+         transform="translate(187.88839,0)">
+        <path
+           transform="translate(198.23987,12.12183)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4013"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           transform="translate(198.23987,117.17769)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4015"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4017"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,232.33508)" />
+        <path
+           transform="translate(198.23987,343.45186)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4019"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+      </g>
+      <rect
+         y="209.59303"
+         x="409.05984"
+         height="441.03033"
+         width="123.84244"
+         id="rect4021"
+         style="fill:none;stroke:#000000;stroke-width:0.86772895;stroke-opacity:1" />
+    </g>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4023"
+       y="209.49088"
+       x="1115.0095"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco"
+         y="209.49088"
+         x="1115.0095"
+         id="tspan4025"
+         sodipodi:role="line">Visible Layer</tspan></text>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4027"
+       y="295.35385"
+       x="1490.9884"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco"
+         y="295.35385"
+         x="1490.9884"
+         id="tspan4029"
+         sodipodi:role="line">Hidden Layer</tspan></text>
+    <rect
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       y="159.04057"
+       x="1024.9613"
+       height="802.35052"
+       width="795.88556"
+       id="rect4031"
+       style="fill:none;stroke:#000000;stroke-width:1.11463964;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4033"
+       d="m 1255.9073,312.56137 240.3323,62.33236"
+       style="fill:none;stroke:#000000;stroke-width:1.95337903;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1256.2286,312.88269 242.2611,165.11829"
+       id="path4035"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4037"
+       d="m 1256.4689,313.12304 240.3519,281.78045"
+       style="fill:none;stroke:#000000;stroke-width:2.07669592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1256.6666,313.32074 239.9565,399.95648"
+       id="path4039"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1257.8289,428.68636 1497.318,375.76874"
+       id="path4041"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4043"
+       d="M 1255.4219,521.09342 1496.725,376.36168"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1255.9467,642.5686 1496.2002,376.8865"
+       id="path4045"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4047"
+       d="M 1252.316,744.19932 1495.8309,377.25578"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4049"
+       d="m 1258.7766,428.43071 240.1651,50.02225"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1253.7412,522.37011 245.236,-42.85655"
+       id="path4051"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4053"
+       d="M 1256.2219,642.88942 1498.4965,479.99425"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1254.4881,740.62314 1498.2302,480.26053"
+       id="path4055"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1255.233,427.88711 241.8237,167.25231"
+       id="path4057"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4059"
+       d="m 1254.9606,522.61467 242.3686,72.79719"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1254.8534,642.66186 242.5829,-46.29719"
+       id="path4061"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4063"
+       d="M 1253.1826,742.33267 1497.1071,596.69386"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4065"
+       d="m 1257.507,430.16113 239.2757,283.2757"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1255.361,522.01514 241.5677,191.56768"
+       id="path4067"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:connector-curvature="0"
+       id="path4069"
+       d="m 1255.0961,640.75016 242.0976,73.09764"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1253.9308,742.05657 243.4281,-27.51518"
+       id="path4071"
+       inkscape:connector-curvature="0" />
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4073"
+       y="324.04221"
+       x="1331.7883"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="324.04221"
+         x="1331.7883"
+         id="tspan4075"
+         sodipodi:role="line">W<tspan
+   id="tspan4077"
+   style="font-size:65.00091553%;baseline-shift:sub">ij</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1207.3375"
+       y="448.49298"
+       id="text4079"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4081"
+         x="1207.3375"
+         y="448.49298">i</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1526.9498"
+       y="497.99048"
+       id="text4083"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4085"
+         x="1526.9498"
+         y="497.99048">j</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1607.5599"
+       y="475.36304"
+       id="text4087"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4089"
+         x="1607.5599"
+         y="475.36304"
+         style="font-size:30px">sigmoid of</tspan><tspan
+         sodipodi:role="line"
+         x="1607.5599"
+         y="517.8468"
+         id="tspan4093"
+         style="font-size:35px">W<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4109">ij</tspan>.x + b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1089.9579"
+       y="328.28485"
+       id="text4095"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4097"
+         x="1089.9579"
+         y="328.28485">x<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4107">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1194.6096"
+       y="886.89917"
+       id="text4099"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4101"
+         x="1194.6096"
+         y="886.89917">v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1514.2219"
+       y="810.53168"
+       id="text4103"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4105"
+         x="1514.2219"
+         y="810.53168">h</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4111"
+       y="434.35086"
+       x="1089.9579"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         y="434.35086"
+         x="1089.9579"
+         id="tspan4113"
+         sodipodi:role="line">x<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4117">i</tspan></tspan></text>
+    <g
+       id="g4138"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"
+       transform="translate(2014.502,118.79394)">
+      <g
+         transform="translate(44.696694,0)"
+         id="g4140">
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4142"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,-54.548237)" />
+        <path
+           transform="translate(24.243661,60.609153)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4144"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           transform="translate(24.243661,165.66502)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4146"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4148"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(24.243661,280.82241)" />
+        <path
+           transform="translate(24.243661,391.93919)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4150"
+           style="fill:#c8b7b7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+      </g>
+      <rect
+         y="132.88757"
+         x="91.938095"
+         height="586.36005"
+         width="123.71017"
+         id="rect4152"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4154"
+       transform="translate(2014.502,114.75334)"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195">
+      <g
+         transform="translate(187.88839,0)"
+         id="g4156">
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4158"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,12.12183)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4160"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,117.17769)" />
+        <path
+           transform="translate(198.23987,232.33508)"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           sodipodi:ry="38.385796"
+           sodipodi:rx="38.385796"
+           sodipodi:cy="250.30106"
+           sodipodi:cx="84.852814"
+           id="path4162"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#d35f5f;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path4164"
+           sodipodi:cx="84.852814"
+           sodipodi:cy="250.30106"
+           sodipodi:rx="38.385796"
+           sodipodi:ry="38.385796"
+           d="m 123.23861,250.30106 c 0,21.19989 -17.18591,38.38579 -38.385796,38.38579 -21.19989,0 -38.385796,-17.1859 -38.385796,-38.38579 0,-21.19989 17.185906,-38.3858 38.385796,-38.3858 21.199886,0 38.385796,17.18591 38.385796,38.3858 z"
+           transform="translate(198.23987,343.45186)" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.86772895;stroke-opacity:1"
+         id="rect4166"
+         width="123.84244"
+         height="441.03033"
+         x="409.05984"
+         y="209.59303" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="2065.0095"
+       y="209.49088"
+       id="text4168"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4170"
+         x="2065.0095"
+         y="209.49088"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">Visible Layer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="2440.9885"
+       y="295.35385"
+       id="text4172"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4174"
+         x="2440.9885"
+         y="295.35385"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">Hidden Layer</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.20885134;stroke-opacity:1"
+       id="rect4176"
+       width="942.86951"
+       height="796.59943"
+       x="1873.1851"
+       y="159.08769"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.95337903;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2205.9073,312.56137 240.3323,62.33236"
+       id="path4178"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4180"
+       d="m 2206.2286,312.88269 242.2611,165.11829"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.07669592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2206.4689,313.12304 240.3519,281.78045"
+       id="path4182"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4184"
+       d="m 2206.6666,313.32074 239.9565,399.95648"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4186"
+       d="M 2207.8289,428.68636 2447.318,375.76874"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2205.4219,521.09342 2446.725,376.36168"
+       id="path4188"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4190"
+       d="M 2205.9467,642.5686 2446.2002,376.8865"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2202.316,744.19932 2445.8309,377.25578"
+       id="path4192"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2208.7766,428.43071 240.1651,50.02225"
+       id="path4194"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4196"
+       d="m 2203.7412,522.37011 245.236,-42.85655"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2206.2219,642.88942 2448.4965,479.99425"
+       id="path4198"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4200"
+       d="M 2204.4881,740.62314 2448.2302,480.26053"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4202"
+       d="m 2205.233,427.88711 241.8237,167.25231"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2204.9606,522.61467 242.3686,72.79719"
+       id="path4204"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4206"
+       d="m 2204.8534,642.66186 242.5829,-46.29719"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2203.1826,742.33267 2447.1071,596.69386"
+       id="path4208"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2207.507,430.16113 239.2757,283.2757"
+       id="path4210"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4212"
+       d="m 2205.361,522.01514 241.5677,191.56768"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2205.0961,640.75016 242.0976,73.09764"
+       id="path4214"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4216"
+       d="m 2203.9308,742.05657 243.4281,-27.51518"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="2281.7883"
+       y="324.04221"
+       id="text4218"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4220"
+         x="2281.7883"
+         y="324.04221">W<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4222">ij</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4224"
+       y="448.49298"
+       x="2157.3376"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="448.49298"
+         x="2157.3376"
+         id="tspan4226"
+         sodipodi:role="line">i</tspan></text>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4228"
+       y="497.99048"
+       x="2476.95"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="497.99048"
+         x="2476.95"
+         id="tspan4230"
+         sodipodi:role="line">j</tspan></text>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4232"
+       y="473.94882"
+       x="2614.1284"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:30px"
+         y="473.94882"
+         x="2614.1284"
+         id="tspan4234"
+         sodipodi:role="line">    sigmoid of</tspan><tspan
+         style="font-size:35px"
+         id="tspan4236"
+         y="516.43256"
+         x="2614.1284"
+         sodipodi:role="line">    W<tspan
+   id="tspan4238"
+   style="font-size:65.00091553%;baseline-shift:sub">ij</tspan>.x + b</tspan></text>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4246"
+       y="886.89917"
+       x="2144.6096"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="886.89917"
+         x="2144.6096"
+         id="tspan4248"
+         sodipodi:role="line">v</tspan></text>
+    <text
+       inkscape:export-ydpi="38.68195"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       sodipodi:linespacing="125%"
+       id="text4250"
+       y="810.53168"
+       x="2464.2219"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="810.53168"
+         x="2464.2219"
+         id="tspan4252"
+         sodipodi:role="line">h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="2562.5549"
+       y="503.64731"
+       id="text4260"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4262"
+         x="2562.5549"
+         y="503.64731">a<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4264">j</tspan> =</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:35px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-19.79899"
+       y="441.42191"
+       id="text4266"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4268"
+         x="-19.79899"
+         y="441.42191" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1897.8746"
+       y="454.14984"
+       id="text4270"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4272"
+         x="1897.8746"
+         y="454.14984">ri = b +</tspan><tspan
+         sodipodi:role="line"
+         x="1897.8746"
+         y="504.14984"
+         id="tspan4274">     w<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4278">ji</tspan>.a<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4276">j</tspan></tspan></text>
+    <image
+       y="474.65448"
+       x="1921.4797"
+       id="image4342"
+       xlink:href="file:///home/jabroni/Pictures/sigma.png"
+       height="33.944084"
+       width="37.642567"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1958.6858"
+       y="516.37524"
+       id="text4345"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4347"
+         x="1958.6858"
+         y="516.37524"
+         style="font-size:65.00091553%;baseline-shift:sub">j</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 2512.1269,903.86976 -415.7788,0"
+       id="path4349"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4795"
+       d="m 1190.7678,903.86976 415.7788,0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/fwdpass.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+  </g>
+</svg>

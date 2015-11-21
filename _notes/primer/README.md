@@ -11,25 +11,25 @@ Let me list out what I actually know.
 * Vector Space Models and Advanced Word Representation theory (*from CS224d*)
 * Linear Algebra concepts for DL, PCA (*Bengio's book*)
 * Probability and Statistics (*Bengio's book*)
+* Recurrent Neural Network (*Karpathys post*)
+* Restricted Boltzmann machines
 
 Now, what I don't know.
 
-**Models**
+### Models
 
-* Recurrent Neural Network
 * LSTM : Long Short Term Memory
 * Autoencoders
-* Deep Restricted Boltzmann machines
 * Deep Belief Network
 * Bi-directional RNN
 
-**Frameworks**
+### Frameworks
 
 * Theano 
 * Torch 
 * TensorFlow
 
-**Concepts**
+### Concepts
 
 * Vanishing Gradient Problem
 * RProp : Resilient Backpropagation 
@@ -51,7 +51,11 @@ Now, what I don't know.
 *Nov 17 2015 : Still Continuing RNN*
 
 * [Soft and fully differentiable Attention Model](http://arxiv.org/abs/1410.5401)
-* 
+
+*Nov 20 2015 : Started RBM* <br />
+*Nov 21 2015 : Continuing RBM*
+
+* Why do we need bias at all?
 
 ## Reading List
 
