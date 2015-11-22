@@ -23,6 +23,10 @@ In Matrix notation, <br />
 
 $E(v,h) = -a^Tv -b^Th - v^TWh$ <br />
 
+## Motivation
+
+[[4](https://www.coursera.org/course/neuralnets)]Consider a nuclear power station, where the state of whole system is determined by a bunch of binary vectors(parameter). The objective here is to determine any unusual state that would cause the plant to blow up. We do not have labelled data here to train our classifier to determine these unusual state. RBMs can be used here to model the usual/normal state of the plant and thus detect any unsual state by comparing it with the usual configuration of the model. 
+
 
 ## Forward Pass
 
@@ -53,6 +57,16 @@ Jointly, forward and backward passed estimate a joint probability distribution $
 To estimate the difference between the original distribution and the reconstructed distribution, KL-divergence is used, which basically measures the non-overlapping (divergent) areas of two probability distribution curves. An optimization algorithm minimizes this non-overlapping area by adjusting the weights. As the network approximates the original distribution, the weights slowly resemble an encoded form of the input distribution.
 
 ![Optimization (*from deeplearning4j.org*)](svg/optim.png)
+
+## Markov Chains
+
+RBM ties its nodes together as Markov chain. Markov chains are logical circuits that connects multiple states together via probabilities.
+
+> **Each state is in a garden of forking paths, but the paths are not equal.**
+
+Deep Belief Net connects features, feature groupings and labels together based on probabilities. 
+
+
 
 ## RBM Stacking
 
@@ -112,10 +126,14 @@ Now $P(x) = \frac{e^{-F(x)}}{Z}$
 2. **Generative Learning** : Reconstruction is making guesses about the probability distribution of the original input; i.e. the values of many varied points at once. This is known as generative learning, which must be distinguished from the so-called discriminative learning performed by classification, which maps inputs to labels, effectively drawing lines between groups of data points.
 3. **Joint Probability** : the simultaneous probability of x given a and of a given x, expressed as the shared weights between the two layers of the RBM. 
 4. **Pre-training** : While RBMs have many uses, proper initialization of weights to facilitate later learning and classification is one of their chief advantages.
-
+5. **Deep Belief Nets** : Stack of RBMs, Deep belief nets are valuable because each RBM within them deals with more and more complex ensembles of features until they group enough together to recognize the whole: pixel (input), line, chin, jaw, lower face, visage, name of person (label).
+6. **Understanding RBM** : In classification, different labels possess different probabilities of combinations of features (higher-level features). 
+7. **Causal Generative Model**
 
 
 ## References
 
 1. [Wikipedia](http://www.wikiwand.com/en/Restricted_Boltzmann_machine)
 2. [On Contrastive Divergence](http://www.cs.toronto.edu/~fritz/absps/cdmiguel.pdf)
+3. [Understanding RBM](http://deeplearning4j.org/understandingRBMs.html)
+4. [Geoff Hinton's Neural Network Course](https://www.coursera.org/course/neuralnets)
