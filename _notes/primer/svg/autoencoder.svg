@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="autoencoder.svg"
+   inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder.png"
+   inkscape:export-xdpi="38.68195"
+   inkscape:export-ydpi="38.68195">
   <defs
      id="defs4">
     <marker
@@ -38,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="58.657351"
-     inkscape:cy="725.42886"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="87.52072"
+     inkscape:cy="692.76977"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,143 +73,425 @@
        id="rect2985"
        width="547.13556"
        height="308.82666"
-       x="154.96097"
-       y="205.25183" />
+       x="-936.46759"
+       y="205.25183"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 154.27934,249.49867 c 169.86617,0 548.58417,0 548.58417,0"
+       d="m -937.14923,249.49867 c 169.86617,0 548.58417,0 548.58417,0"
        id="path2987"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path2989"
-       d="m 154.27934,299.50167 c 169.86617,0 548.58417,0 548.58417,0"
-       style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m -937.14923,299.50167 c 169.86617,0 548.58417,0 548.58417,0"
+       style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path2991"
-       d="m 154.27934,353.79062 c 169.86617,0 548.58417,0 548.58417,0"
-       style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m -937.14923,353.79062 c 169.86617,0 548.58417,0 548.58417,0"
+       style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 154.27934,403.79361 c 169.86617,0 548.58417,0 548.58417,0"
+       d="m -937.14923,403.79361 c 169.86617,0 548.58417,0 548.58417,0"
        id="path2993"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path2995"
-       d="m 154.27934,462.36855 c 169.86617,0 548.58417,0 548.58417,0"
-       style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m -937.14923,462.36855 c 169.86617,0 548.58417,0 548.58417,0"
+       style="fill:none;stroke:#000000;stroke-width:0.98726904px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 154.28571,512.36218 c 174.28572,0 562.85715,0 562.85715,0"
+       d="m -937.14286,512.36218 c 174.28572,0 562.85715,0 562.85715,0"
        id="path2997"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path3013"
-       d="m 244.13366,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
-       style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m -847.29491,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
+       style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 335.63886,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
+       d="m -755.78971,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
        id="path3015"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 415.70591,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
+       d="m -675.72266,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
        id="path3017"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path3019"
-       d="m 507.21111,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
-       style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m -584.21746,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
+       style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.73927379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 607.29492,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
+       d="m -484.13365,206.54017 c 0,95.17186 0,307.35832 0,307.35832"
        id="path3023"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path3025"
-       d="m 396.41515,128.33703 c 22.78932,23.50434 73.59828,75.90744 73.59828,75.90744"
-       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+       d="m -695.01342,128.33703 c 22.78932,23.50434 73.59828,75.90744 73.59828,75.90744"
+       style="fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
-       d="m 74.306193,333.07641 c 22.989469,0 74.244747,0 74.244747,0"
+       d="m -1017.1224,333.07641 c 22.98949,0 74.24477,0 74.24477,0"
        id="path4239"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-157.14285"
+       x="-1248.5714"
        y="278.07645"
        id="text4241"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
          sodipodi:role="line"
          id="tspan4243"
-         x="-157.14285"
+         x="-1248.5714"
          y="278.07645"
-         style="font-size:30px">jth layer</tspan><tspan
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">jth layer</tspan><tspan
          sodipodi:role="line"
-         x="-157.14285"
-         y="328.07645"
+         x="-1248.5714"
+         y="315.57645"
          id="tspan4245"
-         style="font-size:30px">activation</tspan></text>
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">activation</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="258.57144"
+       x="-832.85712"
        y="105.21932"
        id="text4247"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
          sodipodi:role="line"
          id="tspan4249"
-         x="258.57144"
+         x="-832.85712"
          y="105.21932"
-         style="font-size:30px">ith example</tspan></text>
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">ith example</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 74.621193,332.97186 -67.1428573,-45 0.3571428,0 0,0"
+       d="m -1016.8074,332.97186 -67.1428,-45 0.3571,0 0,0"
        id="path4251"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 396.78571,128.79075 -0.35714,-15"
+       d="m -694.64286,128.79075 -0.35714,-15"
        id="path4253"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <text
        xml:space="preserve"
        style="font-size:25px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="431.42856"
+       x="-660"
        y="338.07648"
        id="text4255"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
          sodipodi:role="line"
          id="tspan4257"
-         x="431.42856"
+         x="-660"
          y="338.07648">a<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:65.00091553%;baseline-shift:sub"
    id="tspan4261">j</tspan>x<tspan
-   style="font-size:65%;baseline-shift:super"
+   style="font-size:65.00091553%;baseline-shift:super"
    id="tspan4259">(i)</tspan></tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0"
-       d="m 162.12948,333.63865 261.62951,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
+       d="m -929.29909,333.63865 261.62951,0"
        id="path4263"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <path
        inkscape:connector-curvature="0"
        id="path4265"
-       d="m 463.66002,211.27155 0,98.26207"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.67706124999999995, 3.67706124999999995;stroke-dashoffset:0" />
+       d="m -627.76855,211.27155 0,98.26207"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.67706125, 3.67706125;stroke-dashoffset:0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:2.07342291;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4267"
-       width="911.42859"
-       height="514.28571"
-       x="-182.85715"
-       y="58.076469" />
+       width="911.35516"
+       height="552.78369"
+       x="-1274.249"
+       y="58.113182"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -484.28572,550.93361 -420,0"
+       id="path4288"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-805.71429"
+       y="583.79077"
+       id="text4836"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+       inkscape:export-xdpi="38.68195"
+       inkscape:export-ydpi="38.68195"><tspan
+         sodipodi:role="line"
+         id="tspan4838"
+         x="-805.71429"
+         y="583.79077"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">Summation across columns</tspan></text>
+    <rect
+       inkscape:export-ydpi="76.150185"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       y="297.36768"
+       x="234.28424"
+       height="310.3093"
+       width="120.04676"
+       id="rect4840"
+       style="fill:none;stroke:#000000;stroke-width:1.31233084;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="76.150185"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:connector-curvature="0"
+       id="path4842"
+       d="m 234.68806,347.80764 c 37.16285,0 120.01772,0 120.01772,0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="76.150185"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.68806,397.93395 c 37.16285,0 120.01772,0 120.01772,0"
+       id="path4844"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="76.150185"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.68806,452.35677 c 37.16285,0 120.01772,0 120.01772,0"
+       id="path4846"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="76.150185"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:connector-curvature="0"
+       id="path4848"
+       d="m 234.68806,502.48305 c 37.16285,0 120.01772,0 120.01772,0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="76.150185"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.68806,561.20244 c 37.16285,0 120.01772,0 120.01772,0"
+       id="path4850"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Monaco;-inkscape-font-specification:Monaco"
+       x="27.96122"
+       y="268.00848"
+       id="text4852"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-ydpi="76.150185"><tspan
+         sodipodi:role="line"
+         id="tspan4854"
+         x="27.96122"
+         y="268.00848"
+         style="font-size:16px">Average Activation</tspan><tspan
+         sodipodi:role="line"
+         x="27.96122"
+         y="288.00848"
+         style="font-size:16px"
+         id="tspan4856"> across all examples</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Monaco;-inkscape-font-specification:Monaco"
+       x="22.223354"
+       y="419.50159"
+       id="text4862"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-ydpi="76.150185"><tspan
+         sodipodi:role="line"
+         id="tspan4864"
+         x="22.223354"
+         y="419.50159"
+         style="font-size:15px">jth hidden unit</tspan></text>
+    <g
+       id="g4870"
+       transform="matrix(0.79536302,0,0,0.88421162,21.483066,49.809364)"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-ydpi="76.150185">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.12157583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+         d="m 220.10708,438.20662 c 13.09101,0 42.27758,0 42.27758,0"
+         id="path4866"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+         inkscape:export-xdpi="38.68195"
+         inkscape:export-ydpi="38.68195" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.12157583;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 220.28644,438.14888 -38.23347,-24.85224 0.20334,0 0,0"
+         id="path4868"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder1.png"
+         inkscape:export-xdpi="38.68195"
+         inkscape:export-ydpi="38.68195" />
+    </g>
+    <g
+       id="g4884"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-ydpi="76.150185">
+      <text
+         inkscape:export-ydpi="76.150185"
+         inkscape:export-xdpi="76.150185"
+         inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+         transform="scale(1.1059444,0.90420459)"
+         sodipodi:linespacing="125%"
+         id="text4874"
+         y="307.53711"
+         x="253.75743"
+         style="font-size:33.17833328px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Monaco;-inkscape-font-specification:Monaco"
+         xml:space="preserve"><tspan
+           y="307.53711"
+           x="253.75743"
+           id="tspan4876"
+           sodipodi:role="line">p</tspan></text>
+      <text
+         inkscape:export-ydpi="76.150185"
+         inkscape:export-xdpi="76.150185"
+         inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+         transform="scale(1.1059444,0.90420459)"
+         sodipodi:linespacing="125%"
+         id="text4878"
+         y="291.73792"
+         x="252.96747"
+         style="font-size:33.17833328px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Monaco;-inkscape-font-specification:Monaco"
+         xml:space="preserve"><tspan
+           y="291.73792"
+           x="252.96747"
+           id="tspan4880"
+           sodipodi:role="line">^</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4882"
+       width="353.57144"
+       height="392.14285"
+       x="15.714286"
+       y="234.50504"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-ydpi="76.150185" />
+    <g
+       id="g4890"
+       transform="matrix(0.62740038,0,0,0.62740038,99.664647,252.45207)"
+       inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+       inkscape:export-xdpi="76.150185"
+       inkscape:export-ydpi="76.150185">
+      <text
+         xml:space="preserve"
+         style="font-size:33.17833328px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Monaco;-inkscape-font-specification:Monaco"
+         x="253.75743"
+         y="307.53711"
+         id="text4892"
+         sodipodi:linespacing="125%"
+         transform="scale(1.1059444,0.90420459)"
+         inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+         inkscape:export-xdpi="76.150185"
+         inkscape:export-ydpi="76.150185"><tspan
+           sodipodi:role="line"
+           id="tspan4894"
+           x="253.75743"
+           y="307.53711">p<tspan
+   style="font-size:22.31429949px;baseline-shift:sub"
+   id="tspan4900">j</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:33.17833328px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Monaco;-inkscape-font-specification:Monaco"
+         x="252.96747"
+         y="291.73792"
+         id="text4896"
+         sodipodi:linespacing="125%"
+         transform="scale(1.1059444,0.90420459)"
+         inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder2.png"
+         inkscape:export-xdpi="76.150185"
+         inkscape:export-ydpi="76.150185"><tspan
+           sodipodi:role="line"
+           id="tspan4898"
+           x="252.96747"
+           y="291.73792">^</tspan></text>
+    </g>
   </g>
 </svg>

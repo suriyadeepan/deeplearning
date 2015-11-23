@@ -34,6 +34,20 @@ The overall cost function can now be written as
 
 $J_{sparse} = \alpha J(W,b) + \beta \sum\limits_{j=1}^{n} KL(p||\hat{p}_{j})$
 
+## Understanding by Visualization
+
+[[1](http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/)]Consider the case of 10x10 = 100 pixel input images. A hidden unit is given by
+
+$a_{i} = f( \sum\limits_{j=1}^{100} W_{ij}x_{j} + b_{i} )$
+
+Consider a hidden unit i. What input image,x will cause maximal activation of unit i? Given that the input image is normalized such that $||x||^{2} = \sum\limits_{i=1}^{100} x_{i}^{2} \leq 1$, a pixel j of such an image is given by,
+
+$x_j = \frac{W_{ij}}{\sqrt{\sum\limits_{j=1}^{100} (W_{ij})^2} }$
+
+From the above expression, it is clear that the normalized vectors of images that are parallel to the normalized vectors of hidden unit weights $W_{ij}$ cause them to activate. An image formed by the pixels j will activate unit i to the greatest extent. By visualizing images made of such pixels that maximally activate each of i hidden units, we can see the kind of high level features in the input images that are captured by the hidden layer. 
+
+![Features captured by hidden units](/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder3.png)
+
 
 
 ## Keyterms
