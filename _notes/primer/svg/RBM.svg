@@ -53,9 +53,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="365.12625"
-     inkscape:cy="661.81002"
+     inkscape:zoom="0.5"
+     inkscape:cx="1875.659"
+     inkscape:cy="529.00001"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -979,7 +979,9 @@
          id="tspan4093"
          style="font-size:35px">W<tspan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="tspan4109">ij</tspan>.x + b</tspan></text>
+   id="tspan4109">ij</tspan>.x + b<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4797">0</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1197,12 +1199,12 @@
          y="295.35385"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monaco;-inkscape-font-specification:Monaco">Hidden Layer</tspan></text>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.20885134;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.22790551;stroke-opacity:1"
        id="rect4176"
-       width="942.86951"
-       height="796.59943"
-       x="1873.1851"
-       y="159.08769"
+       width="972.85046"
+       height="796.58038"
+       x="1873.1946"
+       y="159.09721"
        inkscape:export-filename="/home/jabroni/_/deeplearning/_notes/primer/svg/bwdpass.png"
        inkscape:export-xdpi="38.68195"
        inkscape:export-ydpi="38.68195" />
@@ -1431,7 +1433,9 @@
          x="2614.1284"
          sodipodi:role="line">    W<tspan
    id="tspan4238"
-   style="font-size:65.00091553%;baseline-shift:sub">ij</tspan>.x + b</tspan></text>
+   style="font-size:65.00091553%;baseline-shift:sub">ij</tspan>.x + b<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4799">0</tspan></tspan></text>
     <text
        inkscape:export-ydpi="38.68195"
        inkscape:export-xdpi="38.68195"
@@ -1500,7 +1504,9 @@
          sodipodi:role="line"
          id="tspan4272"
          x="1897.8746"
-         y="454.14984">ri = b +</tspan><tspan
+         y="454.14984">ri = b<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4801">1</tspan> +</tspan><tspan
          sodipodi:role="line"
          x="1897.8746"
          y="504.14984"
