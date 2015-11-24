@@ -13,6 +13,7 @@ To summarize, propagating from input layer to hidden layer is the compression st
 
 For achieving a good reconstruction, the encoding layer requires small weights to bring the non-linear units into the linear regime. To minimize the reconstruction error, the decoding layer requires large weights. If we use regularization (weight decay) to keep the weights in check(small), the encodings produced capture the statistical regularities in the training set, rather than just serving as an identity function. 
 
+
 This can also be achieved by putting a constraint on the number of hidden units or introducing a sparsity constraint in the cost function, which are discussed in detail below. 
 
 
@@ -70,6 +71,14 @@ $z = a(W'y + b')$
 To measure the reconstruction error, we can used the squared error $||z-x||^2$. 
 
 
+### Denoising Autoencoders
+
+>  *reconstruct the input from a corrupted version of it*
+
+Denoising autoencoder is a combination of an autoencoder that encodes and reconstructs an input and a stochastic corruptions process. The stochastic corruption process basically corrupts the input, by removing some components from the input randomly. So, the denoising autoencoder tries to predict the corrupted values from the uncorrupted values. Being able to do that is sufficient condition for capturing the joint probability distribution between a set of variables. Look at it this way. By understanding the probabilistic connections between the features in the input from the uncorrupted inputs, the network is able to fill in the blanks in the corrupted inputs, and thus reconstruct them. 
+
+A separate stochastic corruption mechanism is added, which basically masks some entries of the input randomly and sets them to zero. 
+
 
 ## Keyterms
 
@@ -82,6 +91,8 @@ To measure the reconstruction error, we can used the squared error $||z-x||^2$.
 1. An autoencoder is a combination of encoder and decoder. Input to hidden layer pass encodes the input in a compressed form. Hidden layer to output layer pass decodes it to reproduce an approximation of the original input.
 
 2. **PCA and autoencoders** : The hidden units capture the first k (number of hidden units) principle components of the input. This is a lossy compression. Reconstruction of the original input is done using these k principle components. Like PCA, autoencoders when used with linear hidden units, try to provide a projection of high dimensional data, onto a low dimensional space. But if non-linear hidden units are used, the hidden layer captures multi-modal aspects of the data (*needs further investigation*).
+
+3. **Stacked Autoencoder** : A deep network can be formed by stacking autoencoders together. This is done by feeding the latent representation of an autoencoder in the layer below, as input to the autoencoder above. Layer by layer greedy pretraining is done. This deep network is used as a feedforward network for classification tasks, by finetuning the network using backpropagation similar to a normal feedforward MLP.
 
 ## References
 
