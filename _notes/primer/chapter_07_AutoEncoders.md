@@ -6,6 +6,16 @@ Consider a network that takes 10x10 = 100 pixel images as input. Here $x \epsilo
 
 To summarize, propagating from input layer to hidden layer is the compression step, while propagating from hidden layer to output layer is the decompression step. [[2](http://image.diku.dk/shark/sphinx_pages/build/html/rest_sources/tutorials/algorithms/autoencoders.html)]
 
+
+### Motivation
+
+[[4](http://deeplearning.net/tutorial/dA.html)]Without any constraints on the hidden layer ( number of hidden layer units is equal to input dimensions), an autoencoder just learns an identity function that maps input to itself, which is pretty useless. But when experimented with more hidden units than in the input, the hidden layer captures the features in the input and provides a useful representation of the input. *Useful* in the sense, this representation (encoding) can yield better classification error. 
+
+For achieving a good reconstruction, the encoding layer requires small weights to bring the non-linear units into the linear regime. To minimize the reconstruction error, the decoding layer requires large weights. If we use regularization (weight decay) to keep the weights in check(small), the encodings produced capture the statistical regularities in the training set, rather than just serving as an identity function. 
+
+This can also be achieved by putting a constraint on the number of hidden units or introducing a sparsity constraint in the cost function, which are discussed in detail below. 
+
+
 ### Sparse Activation
 
 We can keep the number of hidden units to be larger than the number of input units, but put a sparsity constraint. Sparsity means, keeping most of the hidden unit activation values low, close to zero. This sparsity constraint term is added to the cost function used for backpropagation.
@@ -34,7 +44,7 @@ The overall cost function can now be written as
 
 $J_{sparse} = \alpha J(W,b) + \beta \sum\limits_{j=1}^{n} KL(p||\hat{p}_{j})$
 
-## Understanding by Visualization
+### Understanding by Visualization
 
 [[1](http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/)]Consider the case of 10x10 = 100 pixel input images. A hidden unit is given by
 
@@ -49,18 +59,33 @@ From the above expression, it is clear that the normalized vectors of images tha
 ![Features captured by hidden units](/home/jabroni/_/deeplearning/_notes/primer/svg/autoencoder3.png)
 
 
+### Reconstruction
+
+The hidden layer, $y = a(Wx + b)$ is also known as the latent representation or **code**. The code is mapped back to reconstruction **z**, of the same shape as **x**. 
+
+$z = a(W'y + b')$
+
+*tied weights* : Optionally, the weight matrix $W'$ can be tied together with W, with a constraint $W' = W^T$. 
+
+To measure the reconstruction error, we can used the squared error $||z-x||^2$. 
+
+
 
 ## Keyterms
 
 1. **Overcomplete Representations** : If the size of the intermediate representation is larger than the input dimension.
 2. **KL-Divergence** : a measure of how different two distributions are.
+3. **Tied Weights** : $W' = W^T$
 
 ## Notes
 
 1. An autoencoder is a combination of encoder and decoder. Input to hidden layer pass encodes the input in a compressed form. Hidden layer to output layer pass decodes it to reproduce an approximation of the original input.
+
+2. **PCA and autoencoders** : The hidden units capture the first k (number of hidden units) principle components of the input. This is a lossy compression. Reconstruction of the original input is done using these k principle components. Like PCA, autoencoders when used with linear hidden units, try to provide a projection of high dimensional data, onto a low dimensional space. But if non-linear hidden units are used, the hidden layer captures multi-modal aspects of the data (*needs further investigation*).
 
 ## References
 
 1. [UFLDL : Stanford](http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/)
 2. [Shark](http://image.diku.dk/shark/sphinx_pages/build/html/rest_sources/tutorials/algorithms/autoencoders.html)
 3. [Chris McCormick](https://chrisjmccormick.wordpress.com/2014/05/30/deep-learning-tutorial-sparse-autoencoder/)
+4. [deeplearning.net](http://deeplearning.net/tutorial/dA.html)
