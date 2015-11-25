@@ -8,6 +8,15 @@ Neuroscience study on mammalian neocortex provided new insight to information pr
 
 > Capturing spatiotemporal dependencies, based on regularities in the observations, is therefore viewed as a fundamental goal for deep learning systems.
 
+### Types 
+
+1. Unsupervised or Generative Networks
+2. Supervised or Discriminative Networks
+3. Hybrid Deep Networks
+
+## Notes
+
+1. Unsupervised Learning = Representation Learning
 
 ## References
 
