@@ -2,12 +2,13 @@
 --
 Ordered collection of my Deep Learning reading material
 
-## Articles
+## Articles and Blogs
 
 - [ ] [A Deep Dive into Recurrent Neural Networks](http://nikhilbuduma.com/2015/01/11/a-deep-dive-into-recurrent-neural-networks/)
 - [ ] [On Bayesian Classifier](http://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions/58792#58792)
 - [ ] [Deep Learning Summit](https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c)
 - [ ] [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/)
+- [ ] [Shawn Tan's Blog](http://blog.wtf.sg/)
 
 ## Neural Network : Introductory Concepts
 
@@ -71,3 +72,5 @@ based on [LISA Lab Reading List](http://www.iro.umontreal.ca/~lisa/twiki/bin/vie
 
 - [ ] [Neural Networks Demystified](https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU)
 - [ ] [Demis Hassabis from Google's DeepMind](https://clip.mn/video/yt-08Cl7ii6viY)
+- [ ] [Richard Socher, Chris Manning : DL for NLP without Magic](http://nlp.stanford.edu/courses/NAACL2013/)
+- [ ] [Hugo Larochelle : Neural Networks](http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html)
