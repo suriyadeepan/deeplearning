@@ -1,0 +1,3 @@
+[submodule "code/theano"]
+	path = code/theano
+	url = git@github.com:suriyadeepan/theano.git
