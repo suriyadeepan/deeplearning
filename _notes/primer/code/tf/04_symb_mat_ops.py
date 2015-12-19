@@ -2,12 +2,13 @@
 
 import tensorflow as t0
 
-x=t0.placeholder(t0.types.int16)
-y=t0.placeholder(t0.types.int16)
+x=t0.placeholder("float",[1,2])
+y=t0.placeholder("float",[2,1])
 
-mul_op = t0.mul(x,y)
-add_op = t0.add(x,y)
+mul_op = t0.matmul(x,y)
 
 with t0.Session() as ss:
-	print "Symbolic Constant addition : %i" % ss.run(add_op,feed_dict={x:3,y:7})
-	print "Symbolic Constant multiplication : %i" % ss.run(mul_op,feed_dict={x:3,y:7})
+	a=t0.constant([[1.,2.]])
+	b=t0.constant([[3.],[4.]])
+	z = ss.run(mul_op(a,b))
+	#print "Symbolic Constant multiplication : %i" % ss.run(z)

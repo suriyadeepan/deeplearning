@@ -1,0 +1,3 @@
+# Reinforcement Learning
+
+Learning through interaction with the environment. An intelligent agent learns through the consequences of its actions. It is a two step process : 1. Exploration, for trying out new actions and 2. Exploitaiton, making decisions based on consequences of past actions. **Reinforcement Signal** is a numerical reward which encodes the success of an action's outcome and the agent learns to accumulate *reward* over time. (*Negative reward = punishment*)
