@@ -1,3 +1,6 @@
 [submodule "code/theano"]
 	path = code/theano
 	url = git@github.com:suriyadeepan/theano.git
+[submodule "code/keras"]
+	path = code/keras
+	url = git@github.com:suriyadeepan/keras.git
